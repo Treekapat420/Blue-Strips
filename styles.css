@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-image: url('IMG_2145.png');
-  background-size: contain;               /* Instead of cover */
+  background-size: 100% auto;               /* Instead of cover */
   background-position: center top;            /* Adjusted for layout */
   background-repeat: no-repeat;               /* Prevent tiling */
   background-attachment: fixed;
