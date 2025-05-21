@@ -7,9 +7,6 @@
   <link rel="stylesheet" href="styles.css" />
    </head>
 <body>
-  <div class="money-wrapper">
-    <div class="money"></div>
-  </div>
   
   <!-- Header -->
   <header>
@@ -131,22 +128,6 @@
   allow="autoplay"
   allowfullscreen
 ></iframe>
-    <script>
-  document.getElementById('play-music').addEventListener('click', function () {
-    const oldIframe = document.getElementById('strip-audio');
-    if (oldIframe) oldIframe.remove();
-
-    const iframe = document.createElement('iframe');
-    iframe.width = 0;
-    iframe.height = 0;
-    iframe.src = "https://www.youtube.com/embed/aFpfY-EZwFo?autoplay=1&mute=0&loop=1&playlist=aFpfY-EZwFo";
-    iframe.frameBorder = 0;
-    iframe.allow = "autoplay";
-    iframe.allowFullscreen = true;
-    iframe.id = "strip-audio";
-    document.body.appendChild(iframe);
-  });
-</script>
     
 </body>
 </html>
