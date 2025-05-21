@@ -1,14 +1,15 @@
 /* Blue Strips Nightclub Background */
 body {
-  position: relative; /* Add this */
-  z-index: -1;         /* Push the background behind everything */
-  background-image: url('773452A3-62A0-406E-80B1-4A82F7578285.png');
-  background-size: cover;  /* or try: contain or 100% auto */
+  position: relative;
+  z-index: -1;
+  background-image: url('773452A3-62A0-406E-80B1-4A82F7578285.png'); /* Make sure this file exists in your repo */
+  background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000;
   color: #eee;
   line-height: 1.6;
 }
@@ -19,15 +20,6 @@ header,
 footer {
   position: relative;
   z-index: 2;
-}
-
-/* Global Reset & Background */
-body {
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #000;
-  color: #eee;
-  line-height: 1.6;
 }
 
 /* Header */
