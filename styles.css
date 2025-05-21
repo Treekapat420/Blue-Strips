@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url('https://i.ibb.co/3FM6ZHG/nightclub-bg.jpg'); /* You can replace this with any other club image URL */
+  background-image: url('image_2145.png'); /* Now it loads from your repo */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
