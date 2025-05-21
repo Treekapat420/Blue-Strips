@@ -200,30 +200,3 @@ body {
   font-weight: bold;
   letter-spacing: 2px;
 }
-
-.money-wrapper {
-  pointer-events: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.money {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: url('https://i.ibb.co/fYDrYmn/money-bill.png'); /* Replace if you have your own money PNG */
-  background-repeat: repeat;
-  background-size: 100px auto;
-  animation: fall 10s linear infinite;
-  opacity: 0.2;
-}
-
-@keyframes fall {
-  0% { background-position: 0 -100%; }
-  100% { background-position: 0 100%; }
-}
