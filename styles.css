@@ -1,3 +1,34 @@
+/* Blue Strips Nightclub Background */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('https://i.ibb.co/3FM6ZHG/nightclub-bg.jpg'); /* You can replace this with any other club image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #eee;
+  line-height: 1.6;
+}
+
+/* Overlay for text readability */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+
+header,
+.hero,
+.section,
+footer {
+  position: relative;
+  z-index: 2;
+}
+
 /* Global Reset & Background */
 body {
   margin: 0;
