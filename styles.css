@@ -2,7 +2,7 @@
 body {
   position: relative; /* Add this */
   z-index: -1;         /* Push the background behind everything */
-  background-image: url('773452A3-62A0-406E-80B1-4A82F7578285.png');
+  background-image: url('blob:https://github.com/1304bbfa-e034-4012-b8eb-6ed32b543cf7');
   background-size: cover;  /* or try: contain or 100% auto */
   background-position: center top;
   background-repeat: no-repeat;
