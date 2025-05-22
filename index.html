@@ -127,12 +127,21 @@
 ></iframe>
 
 <!-- Script to Play Music -->
+<audio id="hiphop-audio" preload="auto">
+  <source src="https://cdn.pixabay.com/audio/2022/03/15/audio_3e9285e3f8.mp3" type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio>
+
 <script>
-  document.getElementById('play-hiphop').addEventListener('click', function () {
-    const audio = new Audio('https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Scratchin_the_Surface/Deep_Space_Radio/Deep_Space_Radio_-_01_-_Astro_Black.mp3');
-    audio.loop = true;
-    audio.volume = 0.7;
-    audio.play();
+  document.getElementById("play-hiphop").addEventListener("click", function () {
+    const audio = document.getElementById("hiphop-audio");
+    if (audio.paused) {
+      audio.play();
+      this.textContent = "Pause Music";
+    } else {
+      audio.pause();
+      this.textContent = "Play Music";
+    }
   });
 </script>
     
