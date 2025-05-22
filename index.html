@@ -118,21 +118,18 @@
   </footer>
 
 <!-- Script to Play Music -->
-<audio id="hiphop-audio" preload="auto" crossorigin="anonymous">
-  <source src="https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Schematist/The_Hip-Hop_Sampler/08_Schematist_-_8_Bit_Hip_Hop.mp3" type="audio/mpeg">
+<audio id="club-audio" preload="auto">
+  <source src="https://cdn.pixabay.com/audio/2023/03/25/audio_f8a8d9e7ba.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 <script>
   document.getElementById("play-hiphop").addEventListener("click", function () {
-    const audio = document.getElementById("hiphop-audio");
+    const audio = document.getElementById("club-audio");
     audio.volume = 0.7;
     if (audio.paused) {
-      audio.play().then(() => {
-        this.textContent = "Pause Music";
-      }).catch(err => {
-        console.log("Audio play failed:", err);
-      });
+      audio.play();
+      this.textContent = "Pause Music";
     } else {
       audio.pause();
       this.textContent = "Play Music";
