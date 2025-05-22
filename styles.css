@@ -92,9 +92,14 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
   height: 400px;
-  background-image: url('773452A3-62A0-406E-80B1-4A82F7578285.png'); /* or use a relative path like 'IMG_2145.png' */
+  background-image: url('773452A3-62A0-406E-80B1-4A82F7578285.png');
   background-size: cover;
   background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .hero h1 {
