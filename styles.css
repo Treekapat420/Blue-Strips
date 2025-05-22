@@ -135,11 +135,6 @@ nav ul li a:hover {
   gap: 20px;
 }
 
-.music-button-wrapper {
-  margin: 40px auto;
-  text-align: center;
-}
-
 #play-hiphop {
   background: linear-gradient(to right, #ff00ff, #00f7ff);
   border: none;
