@@ -95,11 +95,10 @@ nav ul li a:hover {
   background-image: url('773452A3-62A0-406E-80B1-4A82F7578285.png');
   background-size: cover;
   background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
   text-align: center;
+  padding: 60px 20px;
 }
 
 .hero h1 {
