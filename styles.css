@@ -79,6 +79,8 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
+  position: relative;
+  z-index: 0;
   text-align: center;
   padding: 100px 20px;
   background-image: url('773452A3-62A0-406E-80B1-4A82F7578285.png');
@@ -87,8 +89,6 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   background-attachment: scroll;
   color: white;
-  position: relative;
-  z-index: 0;
 }
 
 /* Fade to black from hero into section */
